@@ -22,7 +22,7 @@ cd ~/website
 2. Build the Docker image:
 
 ```sh
-docker run -d -p 80:80 -p 443:443 --name daniels-nginx-container daniels-nginx
+docker build -t daniels-nginx .
 ```
 
 3. Run the Docker container:
